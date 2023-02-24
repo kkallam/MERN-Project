@@ -1,0 +1,72 @@
+.App {
+  width: 80%;
+  margin: 0 auto;
+  background-color: #bacde4;
+  
+}
+.app-header-content {
+  background-color: #e4e3ba;
+  padding: 20px;
+}
+.app-user-content {
+  display: flex;
+  justify-content: space-between;
+}
+h1,
+h2,
+h3,
+h4,
+h5 {
+  text-align: center;
+}
+button{
+  margin: 10px !important;
+}
+button:hover{
+ background-color:rgb(150, 192, 201);
+}
+
+/* Create User CSS */
+.create-user {
+ flex-grow: 1;
+  background-color: #36787a;
+  /* margin: 0 auto; */
+  color: #fff;
+  padding: 20px;
+}
+.create-user .form-control, .create-user h4 {
+  margin-bottom: 15px;
+}
+
+.display-user {
+  flex-grow: 6;
+  background-color: cadetblue;
+  
+}
+.display-user h3 {
+  margin-top: 15px;
+}
+.display-user table{
+  margin-top: 20px;
+  width: 100%;
+  border-collapse: collapse;
+}
+thead td, tbody td{
+  text-align: center;
+}
+
+thead td{
+  font-weight: bold;
+  padding: 10px;
+}
+
+
+tbody tr:nth-child(odd){background-color: #f3ecec;}
+tbody tr:nth-child(even){background-color: #cad5d5;}
+
+.btn-primary {
+  text-align: center;
+  display:block;
+    margin:auto;
+
+}
